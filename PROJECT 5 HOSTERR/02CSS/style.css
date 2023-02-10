@@ -1,0 +1,136 @@
+.top-header {
+  background-color: #f9f4e8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10rem;
+  height: 13vh;
+}
+
+.logo-cta {
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
+}
+.head-btn {
+  background-image: linear-gradient(to right, #eab350, #ea5473);
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 50px;
+  /* font-size: 1.2rem; */
+  color: #fff;
+  font-weight: bolder;
+}
+.head-nav {
+  /* background-color: yellow; */
+  /* align-self: center; */
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
+}
+/* *************************************************** */
+/* *************************SECTION HERO************************* */
+/* *************************************************** */
+.section-hero {
+  background-color: #f7f4e8;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 100px;
+  height: 87vh;
+  padding: 0 10rem;
+}
+.h-text-cont {
+  align-self: center;
+  padding-right: 12rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+h1 {
+  font-size: 5rem;
+  line-height: 1.2;
+  font-family: serif;
+  color: #000;
+}
+.h-d-cont {
+  font-size: 1.7rem;
+  line-height: 1.5;
+}
+.form-cont {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.hero-text-foot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.2rem;
+  font-size: 15px;
+  /* font-weight: bold; */
+}
+.hero-imgs-cont {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+.hero-imgz1 {
+  width: 350px;
+  z-index: 999;
+}
+.hero-imgz2 {
+  z-index: 998;
+  rotate: -10deg;
+}
+.hero-imgz3 {
+  z-index: 997;
+  rotate: -25deg;
+}
+.hero-imgz4 {
+  z-index: 996;
+  rotate: -35deg;
+}
+.hero-imgz2,
+.hero-imgz3,
+.hero-imgz4 {
+  position: absolute;
+}
+.hero-foot {
+  /* background-color: #000; */
+  grid-column: 1 / -1;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-media-cont {
+  display: flex;
+  flex-direction: row;
+  gap: 3.2rem;
+  font-weight: bolder;
+}
+.help-option {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+}
+.help-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.help-text span {
+  display: block;
+  /* background-color: red; */
+}
+.help-text span strong{
+  font-weight: bolder;
+  color: #000;
+}
