@@ -1,0 +1,207 @@
+
+/* ********************************** */
+/* section jobs */
+/* ********************************** */
+.section-third-slide {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* background-color: red; */
+  height: 100%;
+  width: 34rem;
+  height: 65.1rem;
+  /* height: 100vh; */
+  background-size: cover;
+  border-top-left-radius: 1.9rem;
+  border-top-right-radius: 1.9rem;
+  overflow: hidden;
+  align-self: flex-start;
+  /* transform: translatey(6%); */
+  /* display: none; */
+}
+.header-3slide {
+  background-color: blue;
+  background-image: url("./ASSETS/Office\ 2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+  padding: 1.6rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.btn3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  overflow: hidden;
+  background-color: #444;
+  padding: 0.8rem;
+}
+.icon3 {
+  width: 2rem;
+}
+/* .b-icons {
+  padding: 0.4rem;
+} */
+.main3 {
+  background-color: #fff;
+  position: relative;
+  border-radius: 4rem;
+  border-bottom-left-radius: 2.5rem;
+  border-bottom-right-radius: 2.5rem;
+  transform: translatey(-3rem);
+}
+.profile3 {
+  background-color: #aaa;
+  width: fit-content;
+  color: #000;
+  padding: 1.4rem 1.6rem;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -6.5%;
+  left: 50%;
+  transform: translatex(-50%);
+}
+/* ***************************************** */
+.profile3-info {
+  /* background-color: red; */
+  height: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.3rem;
+}
+.profile3-head {
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+
+.profile3-details {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.neseecity {
+  margin: 0 2rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0 0.7rem;
+
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1.2rem 0;
+  border: 1px solid #4a398e;
+}
+.ness3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  padding: 0 2rem;
+}
+.ness3 p {
+  margin-top: 0.4rem;
+}
+.brr {
+  border-right: 1px solid #4a398e;
+}
+/* ************************************************* */
+
+.description3 {
+  /* background-color: red; */
+  /* height: 3.2rem; */
+  margin: 0 1rem;
+  margin-top: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.description3 h3 {
+  font-size: 1.4rem;
+}
+.description3 p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: 700;
+  opacity: 70%;
+}
+.gallery3 {
+  margin: 0 1rem;
+  margin-top: 2.4rem;
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2.5rem 6.4rem 6.4rem;
+  column-gap: 0.8rem;
+  /* row-gap: 0.8rem; */
+  /* justify-content: space-around; */
+}
+.gallery3-head {
+  align-self: start;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.img3 {
+  border-radius: 1rem;
+}
+
+.span-img {
+  grid-row: 2 / -1;
+  /* background-color: blue; */
+}
+.aside-img1 {
+  grid-row: 2;
+}
+.aside-img2 {
+  grid-row: 3;
+  position: relative;
+}
+.aside-img2::after {
+  content: "5+";
+  position: absolute;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.footer3 {
+  margin: 1.6rem 1rem;
+  margin-bottom: 2rem;
+  width: 94%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* padding: 3.2rem; */
+}
+.foot3-btn {
+  width: 100% !important;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.foot3-btn:hover {
+  background-color: #fff;
+  font-weight: bolder;
+  color: #4a398e;
+}
