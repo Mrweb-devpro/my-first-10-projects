@@ -1,0 +1,54 @@
+/**************************/
+/* BELOW 944px (  Tablets) */
+/**************************/
+@media (max-width: 59em) {
+  html {
+    font-size: 55%;
+  }
+  .header {
+    padding: 2rem;
+  }
+  .section-card {
+    padding: 2rem;
+    /* background-color: red; */
+    display: grid;
+    row-gap: 6.4rem;
+    column-gap: 3.2rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: fit-content  fit-content;
+  }
+  .news-letter{
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    /* gap: 3.2rem; */
+  }
+  .card-img2,
+  .card-img3,
+  .card-img4,
+  .news-img{
+    background-position-y: 50%;
+  }
+  .news-img{
+    width: 100%;
+    height: 212px;
+  }
+  footer{
+    padding: 2rem;
+  }
+  }
+  /**************************/
+/* (  phones) */
+/* *************************/
+ @media (max-width: 27.5em) {
+.menu-btn{
+  display: initial;
+}
+.header-nav{
+  display: none;
+}
+footer{
+  flex-direction: column;
+  gap: 1.6rem;
+}
+} 
