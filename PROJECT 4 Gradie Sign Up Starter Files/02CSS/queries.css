@@ -1,0 +1,53 @@
+/**************************/
+/* BELOW 944px (  Tablets) */
+/**************************/
+@media (max-width: 59em) {
+  html {
+    font-size: 60%;
+  }
+  body {
+    height: 100%;
+    width: 100%;
+  }
+
+  main {
+    padding: 3.2rem;
+    height: 100%;
+  }
+
+  .section-login {
+    flex-direction: column;
+    box-shadow: none;
+  }
+  .form-cont {
+    padding-bottom: 24px;
+  }
+}
+/**************************/
+/* BELOW 944px (  mobile phones) */
+/**************************/
+@media (max-width: 44em) {
+  body {
+    height: 100%;
+    width: 100%;
+    padding: 0 ;
+  }
+
+  main {
+    padding: 3.2rem;
+    height: 100%;
+    padding: 0;
+  }
+  .section-login {
+    width: 100%;
+    padding: 0;
+    overflow: visible;
+  }
+  .log-preview {
+   padding-right: 0;
+    width: 100%;
+  }
+  .form-cont {
+    width: 100%;
+  }
+}
